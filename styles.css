@@ -73,9 +73,6 @@ code {
 }
 
 @media only screen and (max-width: 600px) {
-    #navbar {
-        font-size: 16px;
-        max-width: fit-content;
-    }
+
 }
 
