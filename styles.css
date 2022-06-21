@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(22, 22, 22);
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+#navbar {
+    background-color: rgb(39, 40, 44);
+    position: fixed;
+    margin: 0;
+    padding: 20px;
+    height: 100%;
+    width: 250px;
+}
+#navbar header {
+    color: aqua;
+    font-size: 20px;
+    font-weight: 700;
+}
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#navbar li {
+    padding-top: 15px;
+}
+#navbar a {
+    text-decoration: none;
+    font-weight: 300;
+    color: #fff;
+}
+#navbar a:hover {
+    color: gold;
+    font-weight: 500;
+}
+#navbar a:current {
+    color: gold;
+    font-weight: 500;
+}
+
+.main-section {
+    background-color: rgb(39, 40, 44, 0.3);
+    max-width: 1100px;
+    margin-left: 300px;
+}
+.main-section header {
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+p, li {
+    font-weight: 300;
+}
+code {
+    background-color: rgb(255, 255, 255, 0.8);
+    display: block;
+    color: #000;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;  
+}
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+        font-size: 16px;
+    }
+}
+
