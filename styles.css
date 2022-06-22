@@ -76,6 +76,15 @@ code {
 #navbar a.icon {
     display: none;
 }
+footer {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+}
+footer p {
+    font-size: 12px;
+    text-align: center;
+}
 
 @media only screen and (max-width: 768px) {
     #navbar {
