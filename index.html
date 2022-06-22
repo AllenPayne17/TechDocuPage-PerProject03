@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>technical documentation page</title>
 </head>
@@ -10,6 +11,7 @@
     <main id="main-doc">
         <nav id="navbar">
             <header>JS Documentation</header>
+            <div id="myLinks">
             <ul>
                 <li><a class="nav-link" href="#Introduction">Introduction</a></li>
                 <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
@@ -26,7 +28,10 @@
                 <li><a class="nav-link" href="#Function_declaration">Function declaration</a></li>
                 <li><a class="nav-link" href="#Reference">Reference</a></li>
             </ul>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
         </nav>
+        <div class="section-wrapper">
         <section id="Introduction" class="main-section">
         <header>Introduction</header>
         <article>
@@ -197,8 +202,25 @@
             </ul>
         </article>
         </section>
+        </div>
         <footer>
         </footer>
     </main>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+        var y = document.getElementsByClassName("nav-link")
+        if (y.style.display === "block") {
+            y.style.display = "none";
+        } else {
+            y.style.display = "block";
+        }
+    }
+</script>
 </body>
 </html>
