@@ -92,23 +92,22 @@ code {
         display: block;
     }
     #navbar header {
-        padding-left: 15px;
         font-size: 20px;
+        font-weight: 500;
+        margin: 0 auto;
     }
     #navbar a.icon {
         display: unset;
         position: absolute;
+        padding-right: 15px;
         right: 0;
-        top: 0;
-        margin-right: 15px;
-        margin-top: 15px;
     }
     .main-section {
-        margin-left: unset;
         padding-top: 20px;
         padding-left: 10px;
         padding-right: 10px;
         width: fit-content;
+        margin: 0 auto;
     }
     .main-section header {
         font-size: 18px;
