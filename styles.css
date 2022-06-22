@@ -94,7 +94,7 @@ code {
     #navbar header {
         font-size: 20px;
         font-weight: 500;
-        margin: 0 auto;
+        padding-bottom: 10px;
     }
     #navbar a.icon {
         display: unset;
@@ -110,6 +110,9 @@ code {
     }
     .main-section header {
         font-size: 18px;
+    }
+    #Introduction header{
+        padding-top: 50px;
     }
     .section-wrapper {
         margin: auto 10px;
